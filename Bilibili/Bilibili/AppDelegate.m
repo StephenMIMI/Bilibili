@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RecommendViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //[UINavigationBar appearance].tintColor = [UIColor colorWithRed:255.0/255.0 green:45.0/255.0 blue:71.0/255.0 alpha:1.0];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[RecommendViewController alloc] init]];
     return YES;
 }
 

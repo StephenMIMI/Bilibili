@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9100A76C12901E43E7F4F9 /* Pods_Bilibili.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E08808A6DBC1EDA3E0CD6A9 /* Pods_Bilibili.framework */; };
 		BC2CEC361DE52DC60038DCA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC351DE52DC60038DCA1 /* main.m */; };
 		BC2CEC391DE52DC60038DCA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC381DE52DC60038DCA1 /* AppDelegate.m */; };
 		BC2CEC3C1DE52DC60038DCA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC3B1DE52DC60038DCA1 /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		BC2CEC441DE52DC60038DCA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2CEC421DE52DC60038DCA1 /* LaunchScreen.storyboard */; };
 		BC2CEC4F1DE52DC60038DCA1 /* BilibiliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC4E1DE52DC60038DCA1 /* BilibiliTests.m */; };
 		BC2CEC5A1DE52DC60038DCA1 /* BilibiliUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC591DE52DC60038DCA1 /* BilibiliUITests.m */; };
+		BC2CEC841DE543EA0038DCA1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC831DE543EA0038DCA1 /* BaseViewController.m */; };
+		BC2CEC871DE544550038DCA1 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC861DE544550038DCA1 /* RecommendViewController.m */; };
+		BC2CEC941DE5C13E0038DCA1 /* BLDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC931DE5C13E0038DCA1 /* BLDownloader.m */; };
+		BC2CEC981DE5C58D0038DCA1 /* RecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC971DE5C58D0038DCA1 /* RecommendModel.m */; };
+		BCFB871A1DE68958003340A2 /* XYBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFB87191DE68958003340A2 /* XYBannerView.m */; };
+		BCFB87741DE70B58003340A2 /* tad_placeholder@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFB87711DE70B58003340A2 /* tad_placeholder@2x~iphone.png */; };
+		BCFB87751DE70B58003340A2 /* tad_placeholder@3x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFB87721DE70B58003340A2 /* tad_placeholder@3x~iphone.png */; };
+		BCFB87761DE70B58003340A2 /* tad_placeholder~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFB87731DE70B58003340A2 /* tad_placeholder~iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E2361D3F4E8F18345945087 /* Pods-Bilibili.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bilibili.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bilibili/Pods-Bilibili.release.xcconfig"; sourceTree = "<group>"; };
+		5E08808A6DBC1EDA3E0CD6A9 /* Pods_Bilibili.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bilibili.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2CEC311DE52DC60038DCA1 /* Bilibili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bilibili.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2CEC351DE52DC60038DCA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC2CEC371DE52DC60038DCA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,22 @@
 		BC2CEC551DE52DC60038DCA1 /* BilibiliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilibiliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2CEC591DE52DC60038DCA1 /* BilibiliUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BilibiliUITests.m; sourceTree = "<group>"; };
 		BC2CEC5B1DE52DC60038DCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2CEC821DE543EA0038DCA1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BC2CEC831DE543EA0038DCA1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BC2CEC851DE544550038DCA1 /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		BC2CEC861DE544550038DCA1 /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
+		BC2CEC911DE5C0630038DCA1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BC2CEC921DE5C13E0038DCA1 /* BLDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDownloader.h; sourceTree = "<group>"; };
+		BC2CEC931DE5C13E0038DCA1 /* BLDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDownloader.m; sourceTree = "<group>"; };
+		BC2CEC951DE5C52C0038DCA1 /* BLConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLConst.h; sourceTree = "<group>"; };
+		BC2CEC961DE5C58D0038DCA1 /* RecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendModel.h; sourceTree = "<group>"; };
+		BC2CEC971DE5C58D0038DCA1 /* RecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendModel.m; sourceTree = "<group>"; };
+		BCFB87181DE68958003340A2 /* XYBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBannerView.h; sourceTree = "<group>"; };
+		BCFB87191DE68958003340A2 /* XYBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBannerView.m; sourceTree = "<group>"; };
+		BCFB87711DE70B58003340A2 /* tad_placeholder@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tad_placeholder@2x~iphone.png"; sourceTree = "<group>"; };
+		BCFB87721DE70B58003340A2 /* tad_placeholder@3x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tad_placeholder@3x~iphone.png"; sourceTree = "<group>"; };
+		BCFB87731DE70B58003340A2 /* tad_placeholder~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tad_placeholder~iphone.png"; sourceTree = "<group>"; };
+		E48EA5279D17AFBA920A012F /* Pods-Bilibili.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bilibili.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bilibili/Pods-Bilibili.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9100A76C12901E43E7F4F9 /* Pods_Bilibili.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B5B9C12BC782564C1A0D14E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E48EA5279D17AFBA920A012F /* Pods-Bilibili.debug.xcconfig */,
+				4E2361D3F4E8F18345945087 /* Pods-Bilibili.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC2CEC281DE52DC60038DCA1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				BC2CEC4D1DE52DC60038DCA1 /* BilibiliTests */,
 				BC2CEC581DE52DC60038DCA1 /* BilibiliUITests */,
 				BC2CEC321DE52DC60038DCA1 /* Products */,
+				5B5B9C12BC782564C1A0D14E /* Pods */,
+				F687225B5ECEEF68FAA674CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -252,6 +291,14 @@
 		BC2CEC741DE531690038DCA1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BC2CEC821DE543EA0038DCA1 /* BaseViewController.h */,
+				BC2CEC831DE543EA0038DCA1 /* BaseViewController.m */,
+				BC2CEC911DE5C0630038DCA1 /* PrefixHeader.pch */,
+				BC2CEC921DE5C13E0038DCA1 /* BLDownloader.h */,
+				BC2CEC931DE5C13E0038DCA1 /* BLDownloader.m */,
+				BC2CEC951DE5C52C0038DCA1 /* BLConst.h */,
+				BCFB87181DE68958003340A2 /* XYBannerView.h */,
+				BCFB87191DE68958003340A2 /* XYBannerView.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -331,6 +378,8 @@
 		BC2CEC7E1DE531690038DCA1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BC2CEC851DE544550038DCA1 /* RecommendViewController.h */,
+				BC2CEC861DE544550038DCA1 /* RecommendViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -338,6 +387,8 @@
 		BC2CEC7F1DE531690038DCA1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BC2CEC961DE5C58D0038DCA1 /* RecommendModel.h */,
+				BC2CEC971DE5C58D0038DCA1 /* RecommendModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -352,8 +403,19 @@
 		BC2CEC811DE531690038DCA1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BCFB87711DE70B58003340A2 /* tad_placeholder@2x~iphone.png */,
+				BCFB87721DE70B58003340A2 /* tad_placeholder@3x~iphone.png */,
+				BCFB87731DE70B58003340A2 /* tad_placeholder~iphone.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F687225B5ECEEF68FAA674CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E08808A6DBC1EDA3E0CD6A9 /* Pods_Bilibili.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,9 +425,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC2CEC5E1DE52DC60038DCA1 /* Build configuration list for PBXNativeTarget "Bilibili" */;
 			buildPhases = (
+				95412090CE66471E5CC1F6A8 /* [CP] Check Pods Manifest.lock */,
 				BC2CEC2D1DE52DC60038DCA1 /* Sources */,
 				BC2CEC2E1DE52DC60038DCA1 /* Frameworks */,
 				BC2CEC2F1DE52DC60038DCA1 /* Resources */,
+				0AD40CAF55724E1A96FDB4C5 /* [CP] Embed Pods Frameworks */,
+				6369AF53DE33B6059098DF41 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -460,7 +525,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2CEC441DE52DC60038DCA1 /* LaunchScreen.storyboard in Resources */,
+				BCFB87761DE70B58003340A2 /* tad_placeholder~iphone.png in Resources */,
 				BC2CEC411DE52DC60038DCA1 /* Assets.xcassets in Resources */,
+				BCFB87751DE70B58003340A2 /* tad_placeholder@3x~iphone.png in Resources */,
+				BCFB87741DE70B58003340A2 /* tad_placeholder@2x~iphone.png in Resources */,
 				BC2CEC3F1DE52DC60038DCA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,13 +549,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AD40CAF55724E1A96FDB4C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bilibili/Pods-Bilibili-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6369AF53DE33B6059098DF41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bilibili/Pods-Bilibili-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95412090CE66471E5CC1F6A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC2CEC2D1DE52DC60038DCA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC2CEC3C1DE52DC60038DCA1 /* ViewController.m in Sources */,
+				BC2CEC871DE544550038DCA1 /* RecommendViewController.m in Sources */,
+				BC2CEC941DE5C13E0038DCA1 /* BLDownloader.m in Sources */,
+				BCFB871A1DE68958003340A2 /* XYBannerView.m in Sources */,
+				BC2CEC841DE543EA0038DCA1 /* BaseViewController.m in Sources */,
 				BC2CEC391DE52DC60038DCA1 /* AppDelegate.m in Sources */,
+				BC2CEC981DE5C58D0038DCA1 /* RecommendModel.m in Sources */,
 				BC2CEC361DE52DC60038DCA1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -627,8 +748,12 @@
 		};
 		BC2CEC5F1DE52DC60038DCA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48EA5279D17AFBA920A012F /* Pods-Bilibili.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bilibili/Classes/Common/PrefixHeader.pch;
 				INFOPLIST_FILE = Bilibili/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-980681359.Bilibili";
@@ -638,8 +763,12 @@
 		};
 		BC2CEC601DE52DC60038DCA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2361D3F4E8F18345945087 /* Pods-Bilibili.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bilibili/Classes/Common/PrefixHeader.pch;
 				INFOPLIST_FILE = Bilibili/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-980681359.Bilibili";
@@ -712,6 +841,7 @@
 				BC2CEC601DE52DC60038DCA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC2CEC611DE52DC60038DCA1 /* Build configuration list for PBXNativeTarget "BilibiliTests" */ = {
 			isa = XCConfigurationList;
@@ -720,6 +850,7 @@
 				BC2CEC631DE52DC60038DCA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC2CEC641DE52DC60038DCA1 /* Build configuration list for PBXNativeTarget "BilibiliUITests" */ = {
 			isa = XCConfigurationList;
@@ -728,6 +859,7 @@
 				BC2CEC661DE52DC60038DCA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
