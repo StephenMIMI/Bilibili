@@ -30,6 +30,7 @@
 @property (nonatomic, copy)NSString<Optional> *style;
 @property (nonatomic, copy)NSString<Optional> *title;
 @property (nonatomic, copy)NSString<Optional> *type;
+@property (nonatomic, assign)NSNumber<Optional> *cellHeight;
 @end
 
 @interface RCBanner : JSONModel

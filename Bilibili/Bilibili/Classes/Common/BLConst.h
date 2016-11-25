@@ -18,4 +18,7 @@
 
 //推荐：http://app.bilibili.com/x/v2/show?build=429001
 
+//三.常用颜色
+#define XYPinkColor ([UIColor colorWithRed:255.0f/255.0f green:112.0f/255.0f blue:151.0f/255.0f alpha:1.0])
+
 #endif /* BLConst_h */

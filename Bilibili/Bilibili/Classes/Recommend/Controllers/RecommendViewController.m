@@ -8,7 +8,7 @@
 
 #import "RecommendViewController.h"
 #import "RecommendModel.h"
-#import "XYBannerView.h"
+#import "CommonBannerCell.h"
 
 @interface RecommendViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -34,6 +34,7 @@
     self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.tableView.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.tableView];
     
     //约束
@@ -67,12 +68,31 @@
 }
 
 #pragma mark - UITableView的代理
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    NSInteger section = 1;
+    if (self.model.data != nil) {
+        section = self.model.data.count;
+    }
+    return section;
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     CGFloat row = 0;
     if (section == 0) {
         row = 1;//banner
     }
     return row;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 0) {
+        //头部广告视图
+        if (self.model != nil) {
+            CommonBannerCell *cell = [CommonBannerCell createBannerViewFor:tableView atIndexPath:indexPath dataModel:self.model.data[indexPath.section]];
+            return cell;
+        }
+    }
+    return [[UITableViewCell alloc] init];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -83,15 +103,8 @@
     return height;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.section == 0) {
-        //头部广告视图
-        if (self.model != nil) {
-            XYBannerView *cell = [XYBannerView createBannerViewFor:tableView atIndexPath:indexPath bannerArray:[self.model.data[0] banner]];
-            return cell;
-        }
-    }
-    return [[UITableViewCell alloc] init];
-}
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//    [self.tableView reloadData];
+//}
 
 @end

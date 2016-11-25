@@ -20,10 +20,11 @@
 		BC2CEC871DE544550038DCA1 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC861DE544550038DCA1 /* RecommendViewController.m */; };
 		BC2CEC941DE5C13E0038DCA1 /* BLDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC931DE5C13E0038DCA1 /* BLDownloader.m */; };
 		BC2CEC981DE5C58D0038DCA1 /* RecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CEC971DE5C58D0038DCA1 /* RecommendModel.m */; };
-		BCFB871A1DE68958003340A2 /* XYBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFB87191DE68958003340A2 /* XYBannerView.m */; };
-		BCFB87741DE70B58003340A2 /* tad_placeholder@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFB87711DE70B58003340A2 /* tad_placeholder@2x~iphone.png */; };
-		BCFB87751DE70B58003340A2 /* tad_placeholder@3x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFB87721DE70B58003340A2 /* tad_placeholder@3x~iphone.png */; };
-		BCFB87761DE70B58003340A2 /* tad_placeholder~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFB87731DE70B58003340A2 /* tad_placeholder~iphone.png */; };
+		BCF151ED1DE7CCB30091C500 /* tad_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF151EA1DE7CCB30091C500 /* tad_placeholder.png */; };
+		BCF151EE1DE7CCB30091C500 /* tad_placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF151EB1DE7CCB30091C500 /* tad_placeholder@2x.png */; };
+		BCF151EF1DE7CCB30091C500 /* tad_placeholder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF151EC1DE7CCB30091C500 /* tad_placeholder@3x.png */; };
+		BCF151F31DE7E93C0091C500 /* CommonBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF151F11DE7E93C0091C500 /* CommonBannerCell.m */; };
+		BCF151F41DE7E93C0091C500 /* CommonBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF151F21DE7E93C0091C500 /* CommonBannerCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,11 +73,12 @@
 		BC2CEC951DE5C52C0038DCA1 /* BLConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLConst.h; sourceTree = "<group>"; };
 		BC2CEC961DE5C58D0038DCA1 /* RecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendModel.h; sourceTree = "<group>"; };
 		BC2CEC971DE5C58D0038DCA1 /* RecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendModel.m; sourceTree = "<group>"; };
-		BCFB87181DE68958003340A2 /* XYBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBannerView.h; sourceTree = "<group>"; };
-		BCFB87191DE68958003340A2 /* XYBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBannerView.m; sourceTree = "<group>"; };
-		BCFB87711DE70B58003340A2 /* tad_placeholder@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tad_placeholder@2x~iphone.png"; sourceTree = "<group>"; };
-		BCFB87721DE70B58003340A2 /* tad_placeholder@3x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tad_placeholder@3x~iphone.png"; sourceTree = "<group>"; };
-		BCFB87731DE70B58003340A2 /* tad_placeholder~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tad_placeholder~iphone.png"; sourceTree = "<group>"; };
+		BCF151EA1DE7CCB30091C500 /* tad_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tad_placeholder.png; sourceTree = "<group>"; };
+		BCF151EB1DE7CCB30091C500 /* tad_placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tad_placeholder@2x.png"; sourceTree = "<group>"; };
+		BCF151EC1DE7CCB30091C500 /* tad_placeholder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tad_placeholder@3x.png"; sourceTree = "<group>"; };
+		BCF151F01DE7E93C0091C500 /* CommonBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonBannerCell.h; sourceTree = "<group>"; };
+		BCF151F11DE7E93C0091C500 /* CommonBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonBannerCell.m; sourceTree = "<group>"; };
+		BCF151F21DE7E93C0091C500 /* CommonBannerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonBannerCell.xib; sourceTree = "<group>"; };
 		E48EA5279D17AFBA920A012F /* Pods-Bilibili.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bilibili.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bilibili/Pods-Bilibili.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -297,8 +299,9 @@
 				BC2CEC921DE5C13E0038DCA1 /* BLDownloader.h */,
 				BC2CEC931DE5C13E0038DCA1 /* BLDownloader.m */,
 				BC2CEC951DE5C52C0038DCA1 /* BLConst.h */,
-				BCFB87181DE68958003340A2 /* XYBannerView.h */,
-				BCFB87191DE68958003340A2 /* XYBannerView.m */,
+				BCF151F01DE7E93C0091C500 /* CommonBannerCell.h */,
+				BCF151F11DE7E93C0091C500 /* CommonBannerCell.m */,
+				BCF151F21DE7E93C0091C500 /* CommonBannerCell.xib */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -403,9 +406,9 @@
 		BC2CEC811DE531690038DCA1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BCFB87711DE70B58003340A2 /* tad_placeholder@2x~iphone.png */,
-				BCFB87721DE70B58003340A2 /* tad_placeholder@3x~iphone.png */,
-				BCFB87731DE70B58003340A2 /* tad_placeholder~iphone.png */,
+				BCF151EA1DE7CCB30091C500 /* tad_placeholder.png */,
+				BCF151EB1DE7CCB30091C500 /* tad_placeholder@2x.png */,
+				BCF151EC1DE7CCB30091C500 /* tad_placeholder@3x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -525,10 +528,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2CEC441DE52DC60038DCA1 /* LaunchScreen.storyboard in Resources */,
-				BCFB87761DE70B58003340A2 /* tad_placeholder~iphone.png in Resources */,
+				BCF151EE1DE7CCB30091C500 /* tad_placeholder@2x.png in Resources */,
+				BCF151F41DE7E93C0091C500 /* CommonBannerCell.xib in Resources */,
+				BCF151ED1DE7CCB30091C500 /* tad_placeholder.png in Resources */,
+				BCF151EF1DE7CCB30091C500 /* tad_placeholder@3x.png in Resources */,
 				BC2CEC411DE52DC60038DCA1 /* Assets.xcassets in Resources */,
-				BCFB87751DE70B58003340A2 /* tad_placeholder@3x~iphone.png in Resources */,
-				BCFB87741DE70B58003340A2 /* tad_placeholder@2x~iphone.png in Resources */,
 				BC2CEC3F1DE52DC60038DCA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,9 +609,9 @@
 				BC2CEC3C1DE52DC60038DCA1 /* ViewController.m in Sources */,
 				BC2CEC871DE544550038DCA1 /* RecommendViewController.m in Sources */,
 				BC2CEC941DE5C13E0038DCA1 /* BLDownloader.m in Sources */,
-				BCFB871A1DE68958003340A2 /* XYBannerView.m in Sources */,
 				BC2CEC841DE543EA0038DCA1 /* BaseViewController.m in Sources */,
 				BC2CEC391DE52DC60038DCA1 /* AppDelegate.m in Sources */,
+				BCF151F31DE7E93C0091C500 /* CommonBannerCell.m in Sources */,
 				BC2CEC981DE5C58D0038DCA1 /* RecommendModel.m in Sources */,
 				BC2CEC361DE52DC60038DCA1 /* main.m in Sources */,
 			);
